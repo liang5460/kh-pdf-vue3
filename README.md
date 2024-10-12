@@ -63,6 +63,7 @@ import PDF from 'kh-pdf-vue3';
 |   `onScroll`   | Listen to the pdf scrolling, the parameter is the current `scrollTop` value.                                    | `scrollOffset: number`  |
 | `onPageChange` | Listen for page number changes.                                                                                 |     `page: number`      |
 |  `onPdfInit`   | pdf is init. PDFDocumentProxy: https://mozilla.github.io/pdf.js/api/draft/module-pdfjsLib-PDFDocumentProxy.html | `pdf: PDFDocumentProxy` |
+|  `onPdfError`  | Listen renderPDF error                                                                                          |       `err: any`        |
 
 ### `Slots`
 

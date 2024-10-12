@@ -1,6 +1,6 @@
 {
   "name": "kh-pdf-vue3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue3 pdf viewer",
   "main": "./dist/kh-pdf-vue3.js",
   "types": "./dist/types/index.d.ts",

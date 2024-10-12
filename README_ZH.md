@@ -63,6 +63,8 @@ import PDF from 'kh-pdf-vue3';
 | `onPageChange` | 监听页码改变。                                                                                                      |     `page: number`      |
 |  `onPdfInit`   | 监听 PDF 初始化。PDFDocumentProxy: https://mozilla.github.io/pdf.js/api/draft/module-pdfjsLib-PDFDocumentProxy.html | `pdf: PDFDocumentProxy` |
 
+| `onPdfError` | 监听 renderPDF 报错| `err: any` |
+
 ### `插槽(Slots)`
 
 |   Slot Name    | Description    |                Parameters                 |
